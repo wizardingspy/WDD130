@@ -1,6 +1,9 @@
 html {
     background-color: #AF1390;
 }
+p {
+    font-family: "Trebuchet MS";    
+}
 .colorTheSecond {
     background-color: #FDAD13;
 }
