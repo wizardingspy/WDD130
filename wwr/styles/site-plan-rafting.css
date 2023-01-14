@@ -6,11 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  /*https://coolors.co/5a5fa9-a9d2d5-5e0035-d6a184-ffa686*/
-  --primary-color: #5a5fa9 ;
-  --secondary-color: #a9d2d5 ;
-  --accent1-color: #5e0035;
-  --accent2-color: #d6a184;
+  --primary-color: #396E94   ;
+  --secondary-color: #E7C24F ;
+  --accent1-color: #A42212;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
