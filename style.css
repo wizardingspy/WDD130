@@ -4,6 +4,9 @@ html {
 p {
     font-family: "Trebuchet MS";    
 }
-.colorTheSecond {
+.colorTheSecond {/* . denotes class*/
     background-color: #FDAD13;
+}
+#secondbest{/* # denotes id*/
+    color: #FF00FF;
 }
