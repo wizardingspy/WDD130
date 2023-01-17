@@ -1,8 +1,13 @@
+/*Inline > Id > Class > Generic*/
+
 html {
     background-color: #AF1390;
 }
-p {
-    font-family: "Trebuchet MS";    
+*{/*wildcard*/
+    font-size: 40px;
+}
+p, h1 {/*comma to refer to multiple things*/
+    font-family: "Trebuchet MS";/*need quotation marks for fonts with a space*/    
 }
 .colorTheSecond {/* . denotes class*/
     background-color: #FDAD13;

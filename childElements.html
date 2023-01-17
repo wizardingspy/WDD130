@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: green;
+        }
+        p:nth-child(even){/*doesn't only count paragraphs*/
+            color: red;
+        }/*seems to override other css*/
+        div > p {/*only applies to p that are children of div*/
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>This page has a ton of paragraphs</h1>
+    <p>Paragraph's are pretty cool!</p>
+    <br>
+    <p>Paragraph's are pretty cool!</p>
+    <div>
+        <p>Paragraph in a div</p>
+        <p>Paragraph in a div</p>
+        <p>Paragraph in a div</p>
+    </div>
+    <p>Paragraph's are pretty cool!</p>
+    <p>Paragraph's are pretty cool!</p>
+    <p>Paragraph's are pretty cool!</p>
+    <p>Paragraph's are pretty cool!</p>
+    <p>Paragraph's are pretty cool!</p>
+    <p>Paragraph's are pretty cool!</p>
+</body>
+</html>
