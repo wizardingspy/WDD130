@@ -11,9 +11,12 @@
         }
         p:nth-child(even){/*doesn't only count paragraphs*/
             color: red;
-        }/*seems to override other css*/
-        div > p {/*only applies to p that are children of div*/
+        }/*seems to override other css*/ /*Appears to affect the even children that are p, not just even in terms of total page elements*/
+        div > p {/*only applies to p that are direct children of div*/
             color: blue;
+        }
+        div a{/*any given a that is somehow nested in a div*/
+            color:blueviolet;
         }
     </style>
 </head>
@@ -26,7 +29,10 @@
         <p>Paragraph in a div</p>
         <p>Paragraph in a div</p>
         <p>Paragraph in a div</p>
+        <section><p>paragraph in a section1 in a div <a>banana</a></p></section>
+        <section><p>paragraph in a section2 in a div</p><p>2nd paragraph in this section2</p></section>
     </div>
+    <a>banana not in div</a>
     <p>Paragraph's are pretty cool!</p>
     <p>Paragraph's are pretty cool!</p>
     <p>Paragraph's are pretty cool!</p>

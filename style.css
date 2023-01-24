@@ -1,4 +1,6 @@
 /*Inline > Id > Class > Generic*/
+/*inline>embedded(in the html head)>external(linked css file)*/
+/*definitions for the same thing further down get priority*/
 
 html {
     background-color: #AF1390;
