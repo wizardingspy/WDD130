@@ -9,6 +9,14 @@ inline - share space
 inline-block - allows sizing and sharing
 */
 
+/*
+    margin: (top/bottom) (right/left);
+*/
+
+
+
+
+
 html {
     background-color: #AF1390;
 }
