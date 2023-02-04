@@ -3,16 +3,25 @@
     --secondary-color: #4c6085;
     --accent1-color: #70f8ba;
     --accent2-color: #cafe48;
+
+    --heading-font: Garamond;
+    --paragraph-font: Verdana;    
 }
 body{
+    font-family: var(--paragraph-font), sans-serif;
+    font-size: 22px;
     background-color: var(--primary-color);
     color: black;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: var(--secondary-color);
     color: white;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: var(--secondary-color);
     color: white;
 }
@@ -29,7 +38,14 @@ footer a{
 footer a:hover{
     color:#cafe48;
 }
+footer .social img{
+    padding-top: 15px;
+}
+h2{
+    margin: 0;
+}
 nav a{
+    padding: 35px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -41,27 +57,42 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box; 
+}
 .logo{
     width: 80px;
 }
 .icon{
+    padding-top: 10px;
     width: 80px;
 }
 .home-title{
+    font-family: var(--heading-font), serif;
+    font-size: 2em;
+    margin-top: 10px;
     color: white;
 }
 .button-box{
     text-align: center;
 }
 .msg{
+    padding: 35px;
+    line-height: 1.5em;
     background-color: var(--secondary-color);
     color: white;
 }
 .msg h2{
+    font-family: var(--heading-font), serif;
     color: white;
 }
 .msg p{
+    padding-bottom: 15px;
+    font-size: .8em;
     color: white;
+}
+.card-img{
+    border: 10px solid var(--secondary-color);
 }
 #background {
     height: 725px;
@@ -75,13 +106,23 @@ main section{
 #hero-img{
     width: 100%;
 }
+#logo_link{
+    padding-top: 5px;
+}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .book, .join{
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
     background-color: var(--secondary-color);
     color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: var(--accent2-color);
