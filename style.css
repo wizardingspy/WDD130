@@ -13,9 +13,43 @@ inline-block - allows sizing and sharing
     margin: (top/bottom) (right/left);
 */
 
+/*
+    repeat(5, 1fr) == 1fr 1fr 1fr 1fr 1fr
+*/
 
+/*
+    relative
+    % - percentage of parent value - I think
+    em - relative to font size of parent element
+    rem - relative to font size of root element
 
+    vw - 1% of viewport width
+    vh - 1% of viewport height
 
+    fr - relative to number of fr - Might just be a unit for grids
+
+    absolute
+    px - exact pixel measurement
+*/
+
+/*
+    z-index for stack position,
+    default is 0
+    front of objects is positive
+    behind in stack is negative
+*/
+
+/*
+    parent container with display: grid;
+    grid-template-columns: width_of_column1 width_of_column2 ...;
+
+    grid lines start at 1 and are inbetween every element
+
+    any child in grid
+    grid-column: startline/endline;
+    grid-row: startline/endline;
+
+*/
 
 html {
     background-color: #AF1390;
