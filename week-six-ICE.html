@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 12vh;
+            font-weight: 900;
+        }
+        img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 25vh 25vh 25vh 25vh;
+        }
+        .cherry{
+            background-color: white;
+            text-align: center;
+            grid-column: 1/2;
+            grid-row: 1/5;
+        }
+        .grey{
+            background-color: grey;
+            grid-column: 2/3;
+            grid-row: 1/5;
+        }
+        .text1{
+            text-align: center;
+            vertical-align: middle;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .text2{
+            text-align: center;
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class='cherry'>
+            <img src="images/w06_cherries.png" alt="cherry">
+        </div>
+        <div class='grey'></div>
+        <div class='text1'><p style="font-size: 20vh;letter-spacing: 10px;">Tart & Sweet</p></div>
+        <div class='text2'><p style="color:darkred;letter-spacing:20px;">Cherries</p></div>
+    </div>
+</body>
+</html>
